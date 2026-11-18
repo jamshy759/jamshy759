@@ -16,6 +16,13 @@ python agent.py
 - "Remember that my dentist is Dr. Khan"
 - "Search the web for the best budget laptops this month"
 
+## Also
+- `python agent.py --briefing` prints a morning briefing.
+- Type `briefing` in chat for the same.
+- Conversation is remembered between runs; use `--fresh` to reset.
+- The agent can read and write files only in `data/workspace/`.
+- Put your wishlist in `NEEDS.md`.
+
 ## Extend
 Add a function decorated with `@beta_tool` in `agent.py` and put it in `TOOLS`.
 Ideas: Gmail/Calendar access, job search, reading local files.
